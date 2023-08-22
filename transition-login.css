@@ -1,0 +1,20 @@
+@keyframes Scale {
+    0% {
+    transform: scale(95%);
+    }
+    100% {
+        transform: scale(110%)
+    }
+}
+
+.ingresar:hover {
+    animation: Scale 1s;
+}
+.ingresar a:hover {
+    color: rgb(156, 221, 5);
+}
+.registrate:hover,
+.link-olvidado:hover {
+color: rgb(156, 221, 5);
+}
+

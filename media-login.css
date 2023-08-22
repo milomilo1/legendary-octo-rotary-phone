@@ -1,0 +1,67 @@
+@media (max-width:860px) {
+h1{
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-left: 10px;
+}
+.slogan {
+    margin-left: 10px;
+}
+.input-passw,
+    .input-email {
+      
+    padding: 7px;
+    width: 180px;
+    } 
+    header {
+        justify-content: center;
+    }
+    .forms-box {
+        margin-right: 10px;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+h1{
+    font-size: 2em;
+    margin:15px;
+}
+h1 br {
+    display: none;
+}
+    .input-passw,
+    .input-email {
+        padding: 7px;
+    width: 280px;}
+main {
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+    .slogan {
+        display: none;
+    }
+    .box-start {
+        padding: 40px 20px;
+    }
+    .forms-box {
+        width: 90%;
+        margin: 0px;
+        align-content: center;
+        
+    }
+    .forms {
+        margin: 0px;
+        justify-content: center;
+    }
+    .forms-down {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    } 
+
+/*@media (max-width: 375px)
